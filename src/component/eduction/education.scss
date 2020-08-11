@@ -1,0 +1,25 @@
+@import "src/styles/variables";
+.educations h1{
+  color: $primary-color;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.education {
+  display: flex;
+  margin-bottom: $base-margin;
+}
+
+.education_context{
+  margin-left: 70px;
+  background-color: $gray;
+  width: 100%;
+    h2 {
+      padding: $base-padding;
+      color: $black;
+    }
+    p {
+      font-size: 13px;
+      padding: $base-padding;
+    }
+}
+

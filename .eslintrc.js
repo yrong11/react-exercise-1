@@ -28,6 +28,9 @@ module.exports = {
   plugins: ['import', 'react'],
   ignorePatterns: ['node_modules/'],
   rules: {
-    'prettier/prettier': 'error',
+    // 'prettier/prettier': 'error',
+    "prettier/prettier": ["error", {
+     "endOfLine":"auto"
+   }],
   },
 };
